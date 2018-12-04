@@ -1,0 +1,41 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/The-Matrix.jpg)
+}
+
+.nav-pic{
+    position: fixed;
+    text-align: center;
+}
+
+.matrix-pic{
+    width: 40%;
+    margin: 30px;
+}
+
+.quiz-table{
+    height: 400px;
+    background-image: url(../images/wallpaper2you_248928.gif);
+    background-size: contain;
+}
+
+.question{
+    margin:20px;
+    opacity: .9;
+}
+
+.option{
+    margin:10px 80px 0px;
+    opacity: .9;
+    }
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    }
