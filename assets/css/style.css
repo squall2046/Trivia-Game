@@ -1,41 +1,71 @@
+/* Isaac Wu Trivia Game */
+
 body{
     background-attachment: fixed;
     background-size: cover;
     background-image: url(../images/The-Matrix.jpg)
 }
 
-.nav-pic{
+.matrix-pic-table{
     position: fixed;
     text-align: center;
 }
 
 .matrix-pic{
     width: 40%;
-    margin: 30px;
+    margin: 20px 0 0;
+}
+
+.time-left{
+    font-family: 'Kelly Slab', cursive;
+    color: rgb(0, 175, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 30px;
 }
 
 .quiz-table{
-    height: 400px;
+    height: 100%;
     background-image: url(../images/wallpaper2you_248928.gif);
     background-size: contain;
 }
 
-.question{
+.start-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 150px;
+    opacity: .8;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.question-page{
     margin:20px;
     opacity: .9;
 }
 
-.option{
-    margin:10px 80px 0px;
+.option-buttons{
+    margin:20px 60px;
     opacity: .9;
     }
 
+.answer-page{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+    font-family: 'Kelly Slab', cursive;
+}
+
 footer {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0px;
+    padding: 30px;
     text-align: center;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 175, 0);
     height: 40px;
     }

@@ -1,4 +1,4 @@
-<!-- Isaac Wu Crystal Collector Game -->
+<!-- Isaac Wu Trivia Game -->
 
 <!DOCTYPE html>
 <html>
@@ -20,8 +20,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Finger+Paint|Freckle+Face|Press+Start+2P|Sigmar+One|Titan+One"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Chakra+Petch|Jockey+One|Kelly+Slab" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
@@ -32,44 +31,59 @@
 </head>
 
 <body>
-
-
     <div class="container">
-        <!-- <button class="startbutton"></button> -->
         <div class="row">
-            <div class="col-lg-12 nav-pic">
+            <div class="col-lg-12 matrix-pic-table">
                 <img src="assets/images/The_Matrix_logo.png" class="matrix-pic" alt="The_Matrix">
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-2 placeholder-left"></div>
-            <div class="col-lg-8 quiz-table">
-                <div class="time-left">
+            <div class="col-lg-12">
+                <div class="time-left">Seconds: 10</div>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-lg-2 placeholder-left">
+            </div>
+
+            <div class="col-lg-8 quiz-table">
+                <!-- start page -->
+                <div class="start-button">
+                    <button type="button" class="btn btn-success btn-lg text-light"> START GAME </button>
                 </div>
-                <div class="card question">
+
+                <!-- quiz page -->
+                <div class="card question-page">
                     <div class="card-body bg-secondary text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident rerum dicta veniam aut
                         dolorum temporibus accusamus ipsum nobis doloremque vel facere fugiat, molestiae tenetur
                         impedit obcaecati similique maiores expedita. </div>
                 </div>
-                <div class="option">
-                    <button type="button" class="btn btn-dark btn-lg btn-block option1">Block level button</button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block option2">Block level button</button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block option3">Block level button</button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block option4">Block level button</button>
+                <div class="option-buttons">
+                    <button type="button" class="btn btn-dark btn-lg btn-block opt">A. <span id="opta"></span></button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block opt">B. <span id="optb"></span></button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block opt">C. <span id="optc"></span></button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block opt">D. <span id="optd"></span></button>
                 </div>
+                <!-- check answer page -->
+                <div class="answer-page">
+                    <div class="response">Your are: Correct</div>
+                    <div class="answer">The answer is:</div>
+                    <div class="answer-gif">gif:</div>
+                </div>
+                <!-- score page -->
+                <div class="result-page">
+                    <div class="result">result:</div>
+                    <div class="wins">wins:</div>
+                    <div class="losses">Losses:</div>
+                </div>
+                <!-- <button class="startoverbutton"></button> -->
             </div>
         </div>
 
 
-        <!-- <div class="row">
-                <div class="col-lg-12 resultpage">
-                    <div class="result">Your Total Scores:</div>
-                    <div class="wins"></div>
-                    <div class="losses"></div>
-                    <button class="startoverbutton"></button> -->
 
     </div>
 
