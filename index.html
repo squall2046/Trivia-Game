@@ -40,7 +40,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="time-left">Seconds: 10</div>
+                <div class="time-left">&nbsp;</div>
             </div>
         </div>
 
@@ -51,35 +51,46 @@
             <div class="col-lg-8 quiz-table">
                 <!-- start page -->
                 <div class="start-button">
-                    <button type="button" class="btn btn-success btn-lg text-light"> START GAME </button>
+                    <button type="button" class="btn btn-success btn-lg text-light"> ENTER </button>
                 </div>
 
                 <!-- quiz page -->
                 <div class="card question-page">
-                    <div class="card-body bg-secondary text-white" id="question">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident rerum dicta veniam aut
-                        dolorum temporibus accusamus ipsum nobis doloremque vel facere fugiat, molestiae tenetur
-                        impedit obcaecati similique maiores expedita. </div>
+                    <div class="card-body bg-secondary text-white question">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                 </div>
-                <div class="option-buttons">
-                    <button type="button" class="btn btn-dark btn-lg btn-block opt">A. <span id="opta"></span></button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block opt">B. <span id="optb"></span></button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block opt">C. <span id="optc"></span></button>
-                    <button type="button" class="btn btn-dark btn-lg btn-block opt">D. <span id="optd"></span></button>
+                <div class="option-page">
+                    <button type="button" class="btn btn-dark btn-lg btn-block" id="opta">A</button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block" id="optb">B</button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block" id="optc">C</button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block" id="optd">D</button>
                 </div>
                 <!-- check answer page -->
                 <div class="answer-page">
-                    <div class="response">Your are: Correct</div>
+                    <!-- <div class="response">You are: ___ </div> -->
                     <div class="answer">The answer is:</div>
                     <div class="answer-gif">gif:</div>
                 </div>
                 <!-- score page -->
                 <div class="result-page">
-                    <div class="result">result:</div>
-                    <div class="wins">wins:</div>
-                    <div class="losses">Losses:</div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="right-times">Right Answers:</div>
+                            <div class="wrong-times">Wrong Answers:</div>
+                            <div class="time-out">Time Out:</div>
+                            <br>
+                            <p>Ready To Enter 'The Matrix' Again?</p>
+                            <div class="restart-button">
+                                <button type="button" class="btn btn-success btn-lg text-light"> RE-ENTER </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/images/neoinrain.gif" class="end-pic" alt="The_Matrix">
+                        </div>
+                    </div>
+
                 </div>
-                <!-- <button class="startoverbutton"></button> -->
+
             </div>
         </div>
 

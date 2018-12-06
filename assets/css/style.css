@@ -12,7 +12,7 @@ body{
 }
 
 .matrix-pic{
-    width: 40%;
+    width: 30%;
     margin: 20px 0 0;
 }
 
@@ -23,30 +23,32 @@ body{
     font-weight: bolder;
     width: 100%;
     text-align: center;
-    padding: 0 0 30px;
+    padding: 0 0 10px;
 }
 
 .quiz-table{
-    height: 100%;
+    height: 440px;
     background-image: url(../images/wallpaper2you_248928.gif);
     background-size: contain;
+    font-family: 'Kelly Slab', cursive;
+    margin-bottom: 40px;
 }
 
 .start-button{
-    width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 150px;
     opacity: .8;
     font-family: 'Kelly Slab', cursive;
 }
 
 .question-page{
-    margin:20px;
+    font-size: 18px;
+    margin: 30px;
     opacity: .9;
 }
 
-.option-buttons{
+.option-page{
     margin:20px 60px;
     opacity: .9;
     }
@@ -54,18 +56,45 @@ body{
 .answer-page{
     color: white;
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 50px;
+    margin: 20px;
     font-family: 'Kelly Slab', cursive;
 }
 
+.answer{
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid; */
+}
+
 .gifsize{
-    width:400;
-    height: 200px;
+    width:400px;
+    height: 210px;
+}
+
+.result-page{
+    width: 100%;
+    height: 95%;
+    background-color:rgb(0, 175, 0, .5);
+    color: rgb(255, 244, 225);
+    font-size: 19px;
+    padding: 80px 40px;
+    margin: 10px 0px;
+}
+
+.restart-button{
+opacity: .8;
+}
+
+.end-pic{
+    padding-left: 30px;
+    width:90%;
+    opacity: .7;
 }
 
 footer {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     bottom: 0px;
     padding: 30px;
