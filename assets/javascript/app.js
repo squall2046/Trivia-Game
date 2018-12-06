@@ -199,7 +199,7 @@ $(".start-button").on("click", function () {
         $(".answer-page").show();
 
         // step3:Meantime, set a 8 seconds answer-reading timer,
-        var timeout = setTimeout(funTimer, 1000 );
+        var timeout = setTimeout(funTimer, 1000 * 8);
 
         // step4:After 8 seconds, restart time decrement.
         function funTimer() {
@@ -223,6 +223,7 @@ $(".start-button").on("click", function () {
             // (page 3) if all questions rolled, turn to the Result Page
             if (rollNumber > answerArray.length - 1) {
                 $(".question-page, .option-page, .answer-page").hide();
+                $(".time-left").html("- THE END -");
                 $(".result-page").show();
                 $(".right-times").text("Right Answers: " + rightTimes);
                 $(".wrong-times").text("Wrong Answers: " + wrongTimes);
