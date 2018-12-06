@@ -73,10 +73,6 @@ var gifArray = [
     "<img src='assets/images/og8z19i2fvk01.gif' class='gifsize'>"
 ];
 
-var audioArray = [
-
-];
-
 var rollNumber = 0;
 function qnaRoll() {
     $(".question").text(questionArray[rollNumber])
@@ -94,7 +90,6 @@ var rightTimes = 0;
 var wrongTimes = 0;
 var timeOutTimes = 0;
 
-
 //-------------------------------------------------------
 //                   function start
 //-------------------------------------------------------
@@ -106,6 +101,9 @@ $(".question-page, .option-page, .answer-page, .result-page").hide();
 $(".start-button").on("click", function () {
     $(".start-button, .answer-page, .result-page").hide();
     $(".time-left, .question-page, .option-page").show();
+
+    var clickSound = new Audio('assets/sound/beep-one.mp3');
+    clickSound.play();
 
     // Time decrement number start from:
     var dNumber = 21;
@@ -237,5 +235,7 @@ $(".start-button").on("click", function () {
             }
 
         }
+        var clickSound = new Audio('assets/sound/beep-one.mp3');
+        clickSound.play();
     } //---------------( ^ _ ^ )--------------------
 })
