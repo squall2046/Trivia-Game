@@ -27,7 +27,7 @@ body{
 }
 
 .quiz-table{
-    height: 440px;
+    height: auto;
     background-image: url(../images/wallpaper2you_248928.gif);
     background-size: cover;
     font-family: 'Kelly Slab', cursive;
@@ -68,8 +68,8 @@ body{
 }
 
 .gifsize{
-    width:400px;
-    height: 210px;
+    width:90%;
+    /* height: 210px; */
 }
 
 .result-page{
@@ -82,13 +82,20 @@ body{
     margin: 10px 0px;
 }
 
+.results{
+    float: left;
+    position: relative;
+}
+
 .restart-button{
 opacity: .8;
 }
 
 .end-pic{
-    padding-left: 30px;
-    width:90%;
+    float: right;
+    position: relative;
+    padding: 30px;
+    height: 200px;
     opacity: .7;
 }
 
@@ -102,3 +109,14 @@ footer {
     color: rgb(0, 175, 0);
     height: 40px;
     }
+
+@media (max-width: 768px){
+.end-pic{
+    display: none;
+}
+
+
+#questions, #opta, #optb, #optc, #optd{
+    font-size: 12px;
+    }
+}
