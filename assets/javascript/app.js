@@ -128,11 +128,13 @@ $(".start-button").on("click", function () {
             console.log(answerArray.length)
             timeOutTimes++;
         }
+
     }
 
     ////////////////////////////////////////////
     ////////// if Clicked any options: /////////
     ////////////////////////////////////////////
+
     $("#opta").on("click", function () {
         if (optaArray[rollNumber] === answerArray[rollNumber]) {
             // Show you are "RIGHT or WRONG" instead of time decrement,
@@ -146,7 +148,6 @@ $(".start-button").on("click", function () {
         console.log(rollNumber);
         console.log(answerArray.length);
         checkAnswer();
-
     })
     $("#optb").on("click", function () {
         if (optbArray[rollNumber] === answerArray[rollNumber]) {

@@ -29,14 +29,14 @@ body{
 .quiz-table{
     height: 440px;
     background-image: url(../images/wallpaper2you_248928.gif);
-    background-size: contain;
+    background-size: cover;
     font-family: 'Kelly Slab', cursive;
     margin-bottom: 40px;
 }
 
 .start-button{
     text-align: center;
-    margin: 200px 300px;
+    margin: 200px 40%;
     opacity: .8;
     font-family: 'Kelly Slab', cursive;
 }
