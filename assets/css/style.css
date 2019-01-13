@@ -100,10 +100,9 @@ opacity: .8;
 }
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0px;
-    padding: 30px;
     text-align: center;
     font-size: 14px;
     color: rgb(0, 175, 0);
