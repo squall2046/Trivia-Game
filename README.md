@@ -1,9 +1,9 @@
 # :eyeglasses:TriviaGame
-A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. 
+A trivia form (page turn for each question) with multiple choice or true/false options.
 
 [Game Link](https://squall2046.github.io/Trivia-Game/)
 ## :facepunch:Synopsis:
-* A trivia form (page turn for each question) with multiple choice or true/false options.
+* A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. 
 * The user has a limited amount of time to finish the quiz.
   * 8-second for each question to answer.
   * The game ends when the time runs out. 
@@ -13,8 +13,10 @@ A Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
 
 ## :facepunch:Technologies:
 - HTML5
-- JavaScript/JQuery
-- CSS/Bootstrap
+- JavaScript
+- JQuery
+- CSS
+- Bootstrap
 
 ## :facepunch:Author:
 * [Isaac Wu](https://github.com/squall2046)
