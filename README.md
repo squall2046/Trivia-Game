@@ -1,5 +1,5 @@
 # :eyeglasses:TriviaGame
-A trivia form (page turn for each question) with multiple choice or true/false options.
+A trivia form with multiple choices.
 
 > Click  >>>**[Here](https://squall2046.github.io/Trivia-Game/)**<<<  to check the game.
 
