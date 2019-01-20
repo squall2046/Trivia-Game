@@ -1,7 +1,8 @@
 # :eyeglasses:TriviaGame
 A trivia form (page turn for each question) with multiple choice or true/false options.
 
-[Game Link](https://squall2046.github.io/Trivia-Game/)
+> Click  >>>**[Here](https://squall2046.github.io/Trivia-Game/)**<<<  to check the game.
+
 ## :facepunch:Synopsis:
 * A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. 
 * The user has a limited amount of time to finish the quiz.
@@ -12,14 +13,15 @@ A trivia form (page turn for each question) with multiple choice or true/false o
 * A countdown timer in each page.
 
 ## :facepunch:Technologies:
-- HTML5
-- JavaScript
-- JQuery
-- CSS
-- Bootstrap
+- [x] HTML5
+- [x] JavaScript
+- [x] JQuery
+- [x] CSS
+- [x] Bootstrap
 
 ## :facepunch:Author:
 * [Isaac Wu](https://github.com/squall2046)
 * [Game Repo](https://github.com/squall2046/Trivia-Game)
-## Bonus 
-* Added `remove` buttons for each train.
+
+## Copyright
+Isaac Wu © 2018 All Rights Reserved.
